@@ -8,6 +8,8 @@ codenotary: codenotary@frenck.dev
 ingress: true
 ingress_port: 1337
 ingress_stream: true
+ports:
+  1337/tcp:1400
 panel_icon: mdi:microsoft-visual-studio-code
 startup: services
 init: false
