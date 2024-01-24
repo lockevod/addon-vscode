@@ -19,7 +19,7 @@ COPY requirements.txt /tmp/requirements.txt
 COPY vscode.extensions /root/vscode.extensions
 
 # Setup base system
-ARG BUILD_ARCH=amd64
+ARG BUILD_ARCH=aarch64
 ARG CODE_SERVER_VERSION="v4.20.0"
 ARG HA_CLI_VERSION="4.29.0"
 # hadolint ignore=SC2181, DL3008
